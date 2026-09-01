@@ -1,5 +1,5 @@
 
-   1. VARIABLES DE DISEÑO
+  /* 1. VARIABLES DE DISEÑO */
 :root {
   --ink: #17211d;
   --muted: #5f6a64;
@@ -11,7 +11,7 @@
   --serif: Georgia, "Times New Roman", serif;
   --sans: Arial, Helvetica, sans-serif;
 }
-   2. CONFIGURACIÓN GENERAL
+   /*2. CONFIGURACIÓN GENERAL*/
 
 * {
   box-sizing: border-box;
@@ -33,7 +33,7 @@ body {
 
 
 
-   3. ENLACES
+   /*3. ENLACES*/
    
 
 a {
@@ -50,7 +50,7 @@ a:hover {
 
 
 
-   4. ENCABEZADO Y MENÚ DE NAVEGACIÓN
+   /*4. ENCABEZADO Y MENÚ DE NAVEGACIÓN*/
    
 
 .site-header {
@@ -102,7 +102,7 @@ a:hover {
 
 
 
-   5. CONTENEDOR PRINCIPAL
+   /*5. CONTENEDOR PRINCIPAL*/
    
 
 main {
@@ -113,7 +113,7 @@ main {
 
 
 
-   6. PRESENTACIÓN PRINCIPAL
+   /*6. PRESENTACIÓN PRINCIPAL*/
    
 
 .hero {
@@ -172,7 +172,7 @@ h1 {
 
 
 
-   7. FOTOGRAFÍA
+   /*7. FOTOGRAFÍA*/
    
 
 .portrait-wrap {
@@ -208,7 +208,7 @@ h1 {
 
 
 
-   8. ESTRUCTURA GENERAL DE LAS SECCIONES
+   /*8. ESTRUCTURA GENERAL DE LAS SECCIONES*/
    
 
 .section {
@@ -251,7 +251,7 @@ h1 {
 
 
 
-   9. SECCIÓN ABOUT
+   /*9. SECCIÓN ABOUT*/
    
 
 .prose {
@@ -288,7 +288,7 @@ h1 {
 
 
 
-   10. LISTAS DE INVESTIGACIÓN, DATA Y DOCENCIA
+   /*10. LISTAS DE INVESTIGACIÓN, DATA Y DOCENCIA*/
    
 
 .item-list {
@@ -335,7 +335,7 @@ h1 {
 
 
 
-   11. PUBLICACIONES
+   /*11. PUBLICACIONES*/
    
 
 .publication {
@@ -383,7 +383,7 @@ h1 {
 
 
 
-   12. PRESENTACIONES Y PREMIOS
+   /*12. PRESENTACIONES Y PREMIOS*/
    
 
 .timeline article {
@@ -415,7 +415,7 @@ h1 {
 
 
 
-   13. WRITING
+   /*13. WRITING*/
    
 
 .writing-card {
@@ -445,7 +445,7 @@ h1 {
 
 
 
-   14. CONTACTO
+   /*14. CONTACTO*/
    
 
 .contact-grid {
@@ -470,7 +470,7 @@ h1 {
 
 
 
-   15. PIE DE PÁGINA
+   /*15. PIE DE PÁGINA*/
    
 
 footer {
@@ -495,7 +495,7 @@ footer p {
 
 
 
-   16. TABLETAS Y PANTALLAS MEDIANAS
+   /*16. TABLETAS Y PANTALLAS MEDIANAS*/
    
 
 @media (max-width: 900px) {
@@ -560,7 +560,7 @@ footer p {
 
 
 
-   17. TELÉFONOS
+   /*17. TELÉFONOS*/
    
 
 @media (max-width: 560px) {
@@ -612,9 +612,8 @@ footer p {
 
 
 
-   18. ACCESIBILIDAD
-   Desactiva el desplazamiento animado cuando el visitante
-   ha solicitado reducir los movimientos en su dispositivo.
+   /*18. ACCESIBILIDAD*/
+
    
 
 @media (prefers-reduced-motion: reduce) {
