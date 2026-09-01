@@ -565,13 +565,28 @@ footer p {
 
 @media (max-width: 560px) {
   .site-header {
-    align-items: flex-start;
-  }
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 18px 18px;
+}
 
-  .site-header nav {
-    max-width: calc(100vw - 88px);
-  }
+.site-header nav {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px 15px;
 
+  width: 100%;
+  max-width: 100%;
+  padding-left: 0;
+
+  overflow-x: visible;
+}
+
+.site-header nav a {
+  font-size: 10px;
+  white-space: nowrap;
+}
   .hero {
     padding-top: 42px;
   }
