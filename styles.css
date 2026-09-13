@@ -4,7 +4,7 @@
   --ink: #17211d;
   --muted: #5f6a64;
   --paper: #f4f1e9;
-  --paper-light: #fbfaf6;
+  --paper-light: #ffffff;
   --accent: #8f3f2f;
   --line: #d4d0c5;
 
@@ -65,7 +65,7 @@ a:hover {
   min-height: 74px;
   padding: 0 4.5vw;
 
-  background: #fbfaf6f0;
+  background: #fffffff0;
   border-bottom: 1px solid #d4d0c5cc;
 
   backdrop-filter: blur(12px);
